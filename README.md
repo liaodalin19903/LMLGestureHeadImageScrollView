@@ -1,6 +1,6 @@
 # LMLGestureHeadImageScrollView
 a scroll imageview to drag or double click to show detail info.  对图像可拖拽，双击，放大缩小图片
-
+<br>QQ交流群：566966977   不懂可以在群里讨论
 
 ##效果展示图
 
