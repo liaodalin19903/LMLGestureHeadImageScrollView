@@ -1,0 +1,627 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		480154781D90D14700D996B1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 480154771D90D14700D996B1 /* main.m */; };
+		4801547B1D90D14700D996B1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4801547A1D90D14700D996B1 /* AppDelegate.m */; };
+		4801547E1D90D14700D996B1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4801547D1D90D14700D996B1 /* ViewController.m */; };
+		480154811D90D14700D996B1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4801547F1D90D14700D996B1 /* Main.storyboard */; };
+		480154831D90D14700D996B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 480154821D90D14700D996B1 /* Assets.xcassets */; };
+		480154861D90D14700D996B1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 480154841D90D14700D996B1 /* LaunchScreen.storyboard */; };
+		480154911D90D14800D996B1 /* LMLGestureHeadImageScrollViewDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 480154901D90D14800D996B1 /* LMLGestureHeadImageScrollViewDemoTests.m */; };
+		4801549C1D90D14800D996B1 /* LMLGestureHeadImageScrollViewDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4801549B1D90D14800D996B1 /* LMLGestureHeadImageScrollViewDemoUITests.m */; };
+		480154AC1D90D1BE00D996B1 /* LMLGestureHeadImageScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 480154AB1D90D1BE00D996B1 /* LMLGestureHeadImageScrollView.m */; };
+		480154AE1D90D23F00D996B1 /* 01.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 480154AD1D90D23F00D996B1 /* 01.jpg */; };
+		480154B11D90D56000D996B1 /* head_placeholder_square@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 480154AF1D90D56000D996B1 /* head_placeholder_square@3x.png */; };
+		480154B21D90D56000D996B1 /* head_placeholder_square@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 480154B01D90D56000D996B1 /* head_placeholder_square@2x.png */; };
+		CA8E1D4F4CFA04C5D65B47CB /* libPods-LMLGestureHeadImageScrollViewDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DD86EC4D6E59F8E555DCD848 /* libPods-LMLGestureHeadImageScrollViewDemo.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4801548D1D90D14800D996B1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4801546B1D90D14700D996B1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 480154721D90D14700D996B1;
+			remoteInfo = LMLGestureHeadImageScrollViewDemo;
+		};
+		480154981D90D14800D996B1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4801546B1D90D14700D996B1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 480154721D90D14700D996B1;
+			remoteInfo = LMLGestureHeadImageScrollViewDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		480154731D90D14700D996B1 /* LMLGestureHeadImageScrollViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LMLGestureHeadImageScrollViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		480154771D90D14700D996B1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		480154791D90D14700D996B1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4801547A1D90D14700D996B1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4801547C1D90D14700D996B1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4801547D1D90D14700D996B1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		480154801D90D14700D996B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		480154821D90D14700D996B1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		480154851D90D14700D996B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		480154871D90D14700D996B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4801548C1D90D14800D996B1 /* LMLGestureHeadImageScrollViewDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LMLGestureHeadImageScrollViewDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		480154901D90D14800D996B1 /* LMLGestureHeadImageScrollViewDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LMLGestureHeadImageScrollViewDemoTests.m; sourceTree = "<group>"; };
+		480154921D90D14800D996B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		480154971D90D14800D996B1 /* LMLGestureHeadImageScrollViewDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LMLGestureHeadImageScrollViewDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4801549B1D90D14800D996B1 /* LMLGestureHeadImageScrollViewDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LMLGestureHeadImageScrollViewDemoUITests.m; sourceTree = "<group>"; };
+		4801549D1D90D14800D996B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		480154AA1D90D1BE00D996B1 /* LMLGestureHeadImageScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMLGestureHeadImageScrollView.h; sourceTree = "<group>"; };
+		480154AB1D90D1BE00D996B1 /* LMLGestureHeadImageScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMLGestureHeadImageScrollView.m; sourceTree = "<group>"; };
+		480154AD1D90D23F00D996B1 /* 01.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 01.jpg; sourceTree = "<group>"; };
+		480154AF1D90D56000D996B1 /* head_placeholder_square@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "head_placeholder_square@3x.png"; sourceTree = "<group>"; };
+		480154B01D90D56000D996B1 /* head_placeholder_square@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "head_placeholder_square@2x.png"; sourceTree = "<group>"; };
+		6DCCFDF2E6AEAD0C0271D175 /* Pods-LMLGestureHeadImageScrollViewDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LMLGestureHeadImageScrollViewDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-LMLGestureHeadImageScrollViewDemo/Pods-LMLGestureHeadImageScrollViewDemo.release.xcconfig"; sourceTree = "<group>"; };
+		DD86EC4D6E59F8E555DCD848 /* libPods-LMLGestureHeadImageScrollViewDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LMLGestureHeadImageScrollViewDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFA95227226D866403D4EE1E /* Pods-LMLGestureHeadImageScrollViewDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LMLGestureHeadImageScrollViewDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LMLGestureHeadImageScrollViewDemo/Pods-LMLGestureHeadImageScrollViewDemo.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		480154701D90D14700D996B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA8E1D4F4CFA04C5D65B47CB /* libPods-LMLGestureHeadImageScrollViewDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		480154891D90D14800D996B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		480154941D90D14800D996B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4801546A1D90D14700D996B1 = {
+			isa = PBXGroup;
+			children = (
+				480154A91D90D1BE00D996B1 /* LMLGestureHeadImageScrollView */,
+				480154751D90D14700D996B1 /* LMLGestureHeadImageScrollViewDemo */,
+				4801548F1D90D14800D996B1 /* LMLGestureHeadImageScrollViewDemoTests */,
+				4801549A1D90D14800D996B1 /* LMLGestureHeadImageScrollViewDemoUITests */,
+				480154741D90D14700D996B1 /* Products */,
+				501EF14C60C411E6FEB96415 /* Pods */,
+				9B56BA1DCB98BC21D7DB74AA /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		480154741D90D14700D996B1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				480154731D90D14700D996B1 /* LMLGestureHeadImageScrollViewDemo.app */,
+				4801548C1D90D14800D996B1 /* LMLGestureHeadImageScrollViewDemoTests.xctest */,
+				480154971D90D14800D996B1 /* LMLGestureHeadImageScrollViewDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		480154751D90D14700D996B1 /* LMLGestureHeadImageScrollViewDemo */ = {
+			isa = PBXGroup;
+			children = (
+				480154791D90D14700D996B1 /* AppDelegate.h */,
+				4801547A1D90D14700D996B1 /* AppDelegate.m */,
+				4801547C1D90D14700D996B1 /* ViewController.h */,
+				4801547D1D90D14700D996B1 /* ViewController.m */,
+				480154AD1D90D23F00D996B1 /* 01.jpg */,
+				4801547F1D90D14700D996B1 /* Main.storyboard */,
+				480154821D90D14700D996B1 /* Assets.xcassets */,
+				480154841D90D14700D996B1 /* LaunchScreen.storyboard */,
+				480154871D90D14700D996B1 /* Info.plist */,
+				480154761D90D14700D996B1 /* Supporting Files */,
+			);
+			path = LMLGestureHeadImageScrollViewDemo;
+			sourceTree = "<group>";
+		};
+		480154761D90D14700D996B1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				480154771D90D14700D996B1 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4801548F1D90D14800D996B1 /* LMLGestureHeadImageScrollViewDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				480154901D90D14800D996B1 /* LMLGestureHeadImageScrollViewDemoTests.m */,
+				480154921D90D14800D996B1 /* Info.plist */,
+			);
+			path = LMLGestureHeadImageScrollViewDemoTests;
+			sourceTree = "<group>";
+		};
+		4801549A1D90D14800D996B1 /* LMLGestureHeadImageScrollViewDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4801549B1D90D14800D996B1 /* LMLGestureHeadImageScrollViewDemoUITests.m */,
+				4801549D1D90D14800D996B1 /* Info.plist */,
+			);
+			path = LMLGestureHeadImageScrollViewDemoUITests;
+			sourceTree = "<group>";
+		};
+		480154A91D90D1BE00D996B1 /* LMLGestureHeadImageScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				480154AA1D90D1BE00D996B1 /* LMLGestureHeadImageScrollView.h */,
+				480154AB1D90D1BE00D996B1 /* LMLGestureHeadImageScrollView.m */,
+				480154AF1D90D56000D996B1 /* head_placeholder_square@3x.png */,
+				480154B01D90D56000D996B1 /* head_placeholder_square@2x.png */,
+			);
+			path = LMLGestureHeadImageScrollView;
+			sourceTree = "<group>";
+		};
+		501EF14C60C411E6FEB96415 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EFA95227226D866403D4EE1E /* Pods-LMLGestureHeadImageScrollViewDemo.debug.xcconfig */,
+				6DCCFDF2E6AEAD0C0271D175 /* Pods-LMLGestureHeadImageScrollViewDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9B56BA1DCB98BC21D7DB74AA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DD86EC4D6E59F8E555DCD848 /* libPods-LMLGestureHeadImageScrollViewDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		480154721D90D14700D996B1 /* LMLGestureHeadImageScrollViewDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 480154A01D90D14800D996B1 /* Build configuration list for PBXNativeTarget "LMLGestureHeadImageScrollViewDemo" */;
+			buildPhases = (
+				D85BB9BC2A089FCADEAE1ACC /* Check Pods Manifest.lock */,
+				4801546F1D90D14700D996B1 /* Sources */,
+				480154701D90D14700D996B1 /* Frameworks */,
+				480154711D90D14700D996B1 /* Resources */,
+				7C01A3C3A174CAC36C89B7A3 /* Embed Pods Frameworks */,
+				5226DF1D5A1A8D0AA1034DA1 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LMLGestureHeadImageScrollViewDemo;
+			productName = LMLGestureHeadImageScrollViewDemo;
+			productReference = 480154731D90D14700D996B1 /* LMLGestureHeadImageScrollViewDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4801548B1D90D14800D996B1 /* LMLGestureHeadImageScrollViewDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 480154A31D90D14800D996B1 /* Build configuration list for PBXNativeTarget "LMLGestureHeadImageScrollViewDemoTests" */;
+			buildPhases = (
+				480154881D90D14800D996B1 /* Sources */,
+				480154891D90D14800D996B1 /* Frameworks */,
+				4801548A1D90D14800D996B1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4801548E1D90D14800D996B1 /* PBXTargetDependency */,
+			);
+			name = LMLGestureHeadImageScrollViewDemoTests;
+			productName = LMLGestureHeadImageScrollViewDemoTests;
+			productReference = 4801548C1D90D14800D996B1 /* LMLGestureHeadImageScrollViewDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		480154961D90D14800D996B1 /* LMLGestureHeadImageScrollViewDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 480154A61D90D14800D996B1 /* Build configuration list for PBXNativeTarget "LMLGestureHeadImageScrollViewDemoUITests" */;
+			buildPhases = (
+				480154931D90D14800D996B1 /* Sources */,
+				480154941D90D14800D996B1 /* Frameworks */,
+				480154951D90D14800D996B1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				480154991D90D14800D996B1 /* PBXTargetDependency */,
+			);
+			name = LMLGestureHeadImageScrollViewDemoUITests;
+			productName = LMLGestureHeadImageScrollViewDemoUITests;
+			productReference = 480154971D90D14800D996B1 /* LMLGestureHeadImageScrollViewDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4801546B1D90D14700D996B1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "优谱德";
+				TargetAttributes = {
+					480154721D90D14700D996B1 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					4801548B1D90D14800D996B1 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 480154721D90D14700D996B1;
+					};
+					480154961D90D14800D996B1 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 480154721D90D14700D996B1;
+					};
+				};
+			};
+			buildConfigurationList = 4801546E1D90D14700D996B1 /* Build configuration list for PBXProject "LMLGestureHeadImageScrollViewDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4801546A1D90D14700D996B1;
+			productRefGroup = 480154741D90D14700D996B1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				480154721D90D14700D996B1 /* LMLGestureHeadImageScrollViewDemo */,
+				4801548B1D90D14800D996B1 /* LMLGestureHeadImageScrollViewDemoTests */,
+				480154961D90D14800D996B1 /* LMLGestureHeadImageScrollViewDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		480154711D90D14700D996B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				480154861D90D14700D996B1 /* LaunchScreen.storyboard in Resources */,
+				480154831D90D14700D996B1 /* Assets.xcassets in Resources */,
+				480154AE1D90D23F00D996B1 /* 01.jpg in Resources */,
+				480154811D90D14700D996B1 /* Main.storyboard in Resources */,
+				480154B11D90D56000D996B1 /* head_placeholder_square@3x.png in Resources */,
+				480154B21D90D56000D996B1 /* head_placeholder_square@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4801548A1D90D14800D996B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		480154951D90D14800D996B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5226DF1D5A1A8D0AA1034DA1 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LMLGestureHeadImageScrollViewDemo/Pods-LMLGestureHeadImageScrollViewDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7C01A3C3A174CAC36C89B7A3 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LMLGestureHeadImageScrollViewDemo/Pods-LMLGestureHeadImageScrollViewDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D85BB9BC2A089FCADEAE1ACC /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4801546F1D90D14700D996B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4801547E1D90D14700D996B1 /* ViewController.m in Sources */,
+				480154AC1D90D1BE00D996B1 /* LMLGestureHeadImageScrollView.m in Sources */,
+				4801547B1D90D14700D996B1 /* AppDelegate.m in Sources */,
+				480154781D90D14700D996B1 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		480154881D90D14800D996B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				480154911D90D14800D996B1 /* LMLGestureHeadImageScrollViewDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		480154931D90D14800D996B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4801549C1D90D14800D996B1 /* LMLGestureHeadImageScrollViewDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4801548E1D90D14800D996B1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 480154721D90D14700D996B1 /* LMLGestureHeadImageScrollViewDemo */;
+			targetProxy = 4801548D1D90D14800D996B1 /* PBXContainerItemProxy */;
+		};
+		480154991D90D14800D996B1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 480154721D90D14700D996B1 /* LMLGestureHeadImageScrollViewDemo */;
+			targetProxy = 480154981D90D14800D996B1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4801547F1D90D14700D996B1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				480154801D90D14700D996B1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		480154841D90D14700D996B1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				480154851D90D14700D996B1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4801549E1D90D14800D996B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4801549F1D90D14800D996B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		480154A11D90D14800D996B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EFA95227226D866403D4EE1E /* Pods-LMLGestureHeadImageScrollViewDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LMLGestureHeadImageScrollViewDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.youpude.LMLGestureHeadImageScrollViewDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		480154A21D90D14800D996B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6DCCFDF2E6AEAD0C0271D175 /* Pods-LMLGestureHeadImageScrollViewDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LMLGestureHeadImageScrollViewDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.youpude.LMLGestureHeadImageScrollViewDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		480154A41D90D14800D996B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LMLGestureHeadImageScrollViewDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.youpude.LMLGestureHeadImageScrollViewDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LMLGestureHeadImageScrollViewDemo.app/LMLGestureHeadImageScrollViewDemo";
+			};
+			name = Debug;
+		};
+		480154A51D90D14800D996B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LMLGestureHeadImageScrollViewDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.youpude.LMLGestureHeadImageScrollViewDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LMLGestureHeadImageScrollViewDemo.app/LMLGestureHeadImageScrollViewDemo";
+			};
+			name = Release;
+		};
+		480154A71D90D14800D996B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LMLGestureHeadImageScrollViewDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.youpude.LMLGestureHeadImageScrollViewDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LMLGestureHeadImageScrollViewDemo;
+			};
+			name = Debug;
+		};
+		480154A81D90D14800D996B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LMLGestureHeadImageScrollViewDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.youpude.LMLGestureHeadImageScrollViewDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LMLGestureHeadImageScrollViewDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4801546E1D90D14700D996B1 /* Build configuration list for PBXProject "LMLGestureHeadImageScrollViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4801549E1D90D14800D996B1 /* Debug */,
+				4801549F1D90D14800D996B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		480154A01D90D14800D996B1 /* Build configuration list for PBXNativeTarget "LMLGestureHeadImageScrollViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				480154A11D90D14800D996B1 /* Debug */,
+				480154A21D90D14800D996B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		480154A31D90D14800D996B1 /* Build configuration list for PBXNativeTarget "LMLGestureHeadImageScrollViewDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				480154A41D90D14800D996B1 /* Debug */,
+				480154A51D90D14800D996B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		480154A61D90D14800D996B1 /* Build configuration list for PBXNativeTarget "LMLGestureHeadImageScrollViewDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				480154A71D90D14800D996B1 /* Debug */,
+				480154A81D90D14800D996B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4801546B1D90D14700D996B1 /* Project object */;
+}
