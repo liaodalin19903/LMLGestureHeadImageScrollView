@@ -17,11 +17,10 @@ a scroll imageview to drag or double click to show detail info.  对图像可拖
 1.拷贝LMLGestureHeadImageScrollView文件夹到自己项目工程<br>
 2.使用方式请参考demo或者看下面代码<br><br>
     
-    LMLGestureHeadImageScrollView *imageScroll;<br>
-    UIImage *headImage = [UIImage imageNamed:@"01.jpg"];<br>
-
-    imageScroll = [[LMLGestureHeadImageScrollView alloc] initWithFrame:CGRectMake(0, 0, kScreen_Width, kScreen_Height - 64) andHeadImage:headImage];<br>
-    [self.view addSubview:imageScroll];<br><br>
+        LMLGestureHeadImageScrollView *imageScroll;
+        UIImage *headImage = [UIImage imageNamed:@"01.jpg"];
+        imageScroll = [[LMLGestureHeadImageScrollView alloc] initWithFrame:CGRectMake(0, 0, kScreen_Width, kScreen_Height - 64) andHeadImage:headImage];
+        [self.view addSubview:imageScroll];
 
 </li>
 <li>
